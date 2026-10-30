@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+  <!-- Site Metas -->
+  <meta name="keywords" content />
+  <meta name="description" content />
+  <meta name="author" content />
+  <meta name="theme-color" content="#000000" />
+
+  <title>Home</title>
+  <!-- Bootstrap styles -->
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- animate css -->
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+  <header class="bx-header" id="bx-header">
+
+    <div class="bx-top-bar">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="md:col-4 lg:col-4">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="bi bi-heart"></i>
+                </a>
+                <a href="#">
+                  <i class="bi bi-cart"></i>
+                </a>
+                <a href="#" class="bx-login">
+                  <span>Login</span><i class="bi bi-person"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="md:col-4 lg:col-4 d-flex justify-content-center">
+            <a class="bx-navbar-brand" href="index.html">
+              <img src="assets/images/logo.png" alt="Khushigem Design" class="bx-logo  d-inline-block align-text-top">
+            </a>
+          </div>
+          <div class="md:col-4 lg:col-4">
+            <form class="bx-search" role="search">
+              <input class="form-control" type="search" placeholder="Search products ... " aria-label="Search" />
+              <button class="bx-btn d-none" type="submit">
+                <svg class="bi" width="16" height="16">
+                  <use href="#search" />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Medile header End-->
+
+    <div class="bx-medile-bar">
+
+      <div class="container">
+
+        <nav class="navbar md:navbar-expand bg-transparent">
+
+          <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer"
+            aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+          </button>
+          <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+            <div class="drawer-header">
+              <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+            </div>
+            <div class="drawer-body mb-2 md:mb-0 xl:justify-content-center">
+              <ul class="nav navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Collections</a>
+                </li>
+
+                <li class="nav-item">
+                  <button class="nav-link" type="button" data-bs-toggle="menu" aria-expanded="false">
+                    Jewellery
+                    <span class="menu-arrow"></span>
+                  </button>
+                  <div class="menu">
+                    <a class="menu-item" href="#">Action</a>
+                    <a class="menu-item" href="#">Another action</a>
+                    <hr class="menu-divider">
+                    <a class="menu-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Occasions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Stories</a>
+                </li>
+                <li class="nav-item">
+                  <button class="nav-link" type="button" data-bs-toggle="menu" aria-expanded="false">
+                    More
+                    <span class="menu-arrow"></span>
+                  </button>
+                  <div class="menu">
+                    <a class="menu-item" href="#">Action</a>
+                    <a class="menu-item" href="#">Another action</a>
+                    <hr class="menu-divider">
+                    <a class="menu-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Social</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+
+              </ul>
+
+            </div>
+          </dialog>
+
+        </nav>
+
+        <!-- Nav End-->
+
+      </div>
+
+      <div class="bx-header-info text-center py-5 ">
+        <div class="container">
+          <p class="m-0">
+            THE NEW HEIRLOOM EDIT — DISCOVER A DIFFERENT KIND OF PRECIOUS 20
+            %OFF for New Users Hassle Free Shipping
+            Experience
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+
+  <!--Header End-->
+
+  <section class="hero">
+    <div class="panel" id="panel"></div>
+    <div class="bgs" id="bgs"></div>
+
+    <div class="viewport">
+      <div class="track" id="track"></div>
+    </div>
+
+    <div class="nav-btn">
+      <button id="prev" type="button" aria-label="Previous slide">&larr;</button>
+      <button id="next" type="button" aria-label="Next slide">&rarr;</button>
+    </div>
+  </section>
+
+  <!--Horo End-->
+  <!--shop by category -->
+
+  <section class="bx-shop-section overflow-hidden">
+
+    <div class="container">
+      <div class="row m-0">
+        <div class="col-12">
+          <div class="bx-module-titel wow animate__fadeInUp animate__animated" data-wow-duration="1.5s"
+            data-wow-delay="0s">
+            <h3 class="text-center">shop by category</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--shop-lists-->
+
+    <div class="bx-shop-lists">
+      <div class="container">
+        <ul class="row">
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+
+              <a href="assets/images/shop/shop-1.jpg" class="glightbox" data-gallery="shop-category">
+                <img src="assets/images/shop/shop-1.jpg" alt="Gold necklace" width="250">
+
+              </a>
+
+              <div class="bx-item-info position-absolute left-4 bottom-0">
+                <p>Explore Now</p>
+                <h4>Rings </h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/shop/shop-2.jpg" class="glightbox" data-gallery="shop-category">
+                <img src="assets/images/shop/shop-2.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute ">
+                <p>Explore Now</p>
+                <h4>Bangles </h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/shop/shop-3.jpg" class="glightbox" data-gallery="shop-category">
+                <img src="assets/images/shop/shop-3.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute ">
+                <p>Explore Now</p>
+                <h4> Necklace </h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/shop/shop-4.jpg" class="glightbox" data-gallery="shop-category">
+                <img src="assets/images/shop/shop-4.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute ">
+                <p>Explore Now</p>
+                <h4>Earnings </h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/shop/shop-5.jpg" class="glightbox" data-gallery="shop-category">
+                <img src="assets/images/shop/shop-5.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute ">
+                <p>Explore Now</p>
+                <h4>Pendants </h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/shop/shop-6.jpg" class="glightbox" data-gallery="shop-category">
+                <img src="assets/images/shop/shop-6.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute ">
+                <p>Explore Now</p>
+                <h4>Nosepin</h4>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <!--shop by category End-->
+  <!--New In -->
+  <section class="bx-new-in-section">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <span class="bx-sub-title wow animate__fadeInUpanimate__animated position-relative z-3"
+            data-wow-duration="1.5s" data-wow-delay="0s">
+            <i class=" bi bi-gem"></i>
+            500+ New Items
+          </span>
+          <div class="bx-module-titel position-relative z-3 wow animate__fadeInLeft animate__animated"
+            data-wow-duration="1.5s" data-wow-delay="0s">
+
+            <h3 class="text-start text-white">New In</h3>
+          </div>
+          <p class="bx-info position-relative z-3 wow animate__fadeInLeft animate__animated" data-wow-duration="1.5s"
+            data-wow-delay="0s">
+            New Arrivals Dropping Daily, Weekly.<br />
+            Explore the latest launches Now!!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--new-in-lists-->
+
+    <div class="bx-new-in-lists">
+      <div class="container">
+        <div class="row m-0">
+          <div class="col-12">
+            <div class="bx-button text-end mb-6 ">
+              <!-- BUTTON BOX-->
+              <a href="#" class="bx-btn bx-btn-1" type="button">EXPLORE NEW
+                COLLECTION</a>
+            </div>
+          </div>
+        </div>
+
+        <ul class="row ">
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/new-in/item/item-1.jpg" class="glightbox" data-gallery="new-category">
+                <img src="assets/images/new-in/item/item-1.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute left-4 bottom-0">
+
+                <h4>Gold Jewellery</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/new-in/item/item-2.jpg" class="glightbox" data-gallery="new-category">
+                <img src="assets/images/new-in/item/item-2.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute ">
+
+                <h4>Silver Jewellery</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/new-in/item/item-3.jpg" class="glightbox" data-gallery="new-category">
+                <img src="assets/images/new-in/item/item-3.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute ">
+
+                <h4>Diamond Jewellery</h4>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <!--New In End-->
+  <!--shop by occasion -->
+
+  <section class="bx-occasion-section">
+
+    <div class="container">
+      <div class="row m-0">
+        <div class="col-12">
+          <div class="bx-module-titel wow animate__fadeInUp animate__animated" data-wow-duration="1.5s"
+            data-wow-delay="0s">
+            <h3 class="text-center">shop by occasion </h3>
+          </div>
+
+          <div class="col-12">
+            <div class="bx-occasion-banner">
+              <h3 class="text-st">FIND A JEWEL FOR EVERY MOMENT</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--occasion-lists -->
+
+    <div class="bx-occasion-lists">
+
+      <div class="container">
+
+        <ul class="row ">
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/occasion/item/item-1.jpg" class="glightbox" data-gallery="occasion"
+                data-title="Wedding">
+                <img src="assets/images/occasion/item/item-1.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute left-4 bottom-0">
+
+                <h4>Wedding</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/occasion/item/item-2.jpg" class="glightbox" data-gallery="occasion"
+                data-title="Festive">
+                <img src="assets/images/occasion/item/item-2.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute ">
+
+                <h4>Festive</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/occasion/item/item-3.jpg" class="glightbox" data-gallery="occasion"
+                data-title="Engagement">
+                <img src="assets/images/occasion/item/item-3.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute ">
+
+                <h4>Engagement</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/occasion/item/item-2.jpg" class="glightbox" data-gallery="occasion"
+                data-title="Gifting">
+                <img src="assets/images/occasion/item/item-2.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute left-4 bottom-0">
+
+                <h4>Gifting</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/occasion/item/item-5.jpg" class="glightbox" data-gallery="occasion"
+                data-title="Everyday">
+                <img src="assets/images/occasion/item/item-5.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute ">
+
+                <h4>Everyday</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-12 sm:col-6 md:col-4 lg:col-4">
+            <div class="bx-item-lightbox position-relative mb-10 wow animate__fadeInUp animate__animated"
+              data-wow-delay="00ms" data-wow-duration="1500ms">
+              <a href="assets/images/occasion/item/item-6.jpg" class="glightbox" data-gallery="occasion"
+                data-title="Elegant Gold Rings">
+                <img src="assets/images/occasion/item/item-6.jpg" alt="Gold necklace" width="250">
+              </a>
+
+              <div class="bx-item-info position-absolute ">
+
+                <h4>Birthday</h4>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <!--shop by occasion End-->
+  <!-- service -->
+  <section class="bx-service-bar-section">
+    <div class="container-fluid">
+      <ul class="row  justify-content-around g-3">
+        <li class="col-12 sm:col-6 md:col-4 col-lg-5th">
+          <div>
+            <i class="bi bi-gem"></i>
+            <span>BIS HALLMARKED</span>
+          </div>
+        </li>
+        <li class="col-12 sm:col-6 md:col-4 col-lg-5th">
+          <div>
+            <i class="bi bi-arrow-repeat"></i>
+            <span>HASSLE FREE EXCHANGE</span>
+          </div>
+        </li>
+        <li class="col-12 sm:col-6 md:col-4 col-lg-5th">
+          <div>
+            <i class="bi bi-truck"></i>
+            <span>EASY SHIPPING RETURNS</span>
+          </div>
+        </li>
+        <li class="col-12 sm:col-6 md:col-4 col-lg-5th">
+          <div>
+            <i class="bi bi-headset"></i>
+            <span>DEDICATED CUSTOMER SERVICE</span>
+          </div>
+        </li>
+        <li class="col-12 sm:col-6 md:col-4 col-lg-5th">
+          <div>
+            <i class="bi bi-file-earmark-check"></i>
+            <span>FAIR &amp; TRANSPARENT PRICING</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--service End-->
+  <!-- Footer -->
+  <footer class="bx-khushi-footer">
+
+    <div class="container py-5">
+      <div class="bx-top-footer ">
+        <div class="row align-items-center gy-4">
+          <!-- Brand -->
+          <div class="col-12 lg:col-5 md:col-12 mt-0">
+            <div class="footer-brand">
+              <img src="assets/images/logo.png" alt="Khushi Gems Logo" class="footer-logo">
+
+              <h2>KHUSHI GEMS</h2>
+              <p>Jewellery That Carries a Story</p>
+            </div>
+          </div>
+
+          <!-- Shop -->
+          <div class="lg:col-2 col-6">
+            <h6>SHOP</h6>
+            <ul class="footer-links">
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Rings</a></li>
+              <li><a href="#">Necklaces</a></li>
+              <li><a href="#">Bridal Jewellery</a></li>
+              <li><a href="#">Best Sellers</a></li>
+            </ul>
+          </div>
+
+          <!-- Discover -->
+          <div class="lg:col-2 col-6">
+            <h6>DISCOVER</h6>
+            <ul class="footer-links">
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Jewellery Journal</a></li>
+              <li><a href="#">Necklaces</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Craftsmanship</a></li>
+            </ul>
+          </div>
+
+          <!-- Customer Care -->
+          <div class="lg:col-3 col-12">
+            <h6>CUSTOMER CARE</h6>
+            <ul class="footer-links">
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Shipping &amp; Delivery</a></li>
+              <li><a href="#">Returns &amp; Exchanges</a></li>
+              <li><a href="#">Bridal Jewellery</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom text-center">
+      <p>©2026 KHUSHIGEMS, All right reserved</p>
+      <span>Developed By Dzone India</span>
+    </div>
+
+  </footer>
+
+  <!-- js -->
+  <script src="js/jquery.min.js"></script>
+
+
+  <!-- Bootstrap 5.3.8 -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js">
+
+  </script>
+
+  <!-- GLightbox -->
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+  <!-- WOW.js -->
+  <script src="js/wow.min.js"></script>
+
+  <!-- Your custom JavaScript -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
